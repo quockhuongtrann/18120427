@@ -1,0 +1,188 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 960px;
+    box-shadow:  2px 2px 10px #000
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo_image{
+    width: 75px;
+    height: 75px;
+}
+
+.header .logo p, .header .contact p{
+    line-height: 75px;
+    font-size: 150%;
+    color: grey;
+}
+
+.header .logo p span, .header .contact p span{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.banner_title{
+    text-align: center;
+}
+
+.banner_title p{
+    font-size: 200%;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner_image img{
+    width: 100%;
+}
+
+.button {
+    background-image: linear-gradient(180deg,#b7e8ff,#6098da);
+	border-radius:33px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #b7e8ff;
+    margin-top: 15px;
+    margin-bottom: 45px;
+	text-decoration:none;
+}
+
+.button .button_content{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #37567f;
+}
+
+.button .button_hint{
+    text-align: center;
+    font-size: 12px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #37567f;  
+}
+
+.product img{
+    width: 60px;
+    height: 60px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product .product_title{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product .product_content{
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.customer .customer_title{
+    color: #5790dc;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.customer .customer_content{
+    background-color: #d3dce9;
+    border-radius: 10px;
+    padding: 25px 40px;
+}
+
+.customer{
+    position: relative;
+}
+
+.arrow-down {
+    position: absolute;
+    right: 78px;
+    top: 216px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #d3dce9; 
+    transform: rotate(135deg);
+}
+
+
+.customer .customer_name{
+    text-align: right;
+    padding-right: 100px;
+}
+
+.arrow2 img{
+    height: 85px;
+    margin-left: 30px;
+}
+
+.footer{
+    background-image: radial-gradient(#9d9d9d, #737373);
+    padding: 35px;
+}
+
+.footer .footer_title{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .footer_content{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .map img{
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.footer2{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.copyright p{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.bi{
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+}
+
